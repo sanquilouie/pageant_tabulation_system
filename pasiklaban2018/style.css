@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 500px;
+  margin: 0;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7cac9+0,92a8d1+100 */
+  background: #f7cac9;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #f7cac9 0%, #92a8d1 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #f7cac9 0%, #92a8d1 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #f7cac9 0%, #92a8d1 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /* IE6-9 fallback on horizontal gradient */
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  overflow-y: hidden; // hide vertical
+	overflow-x: hidden;
+  
+}
+}
+
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+	
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #618685;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: right;
+    display: block;
+	color: black;
+	padding-top:2%;
+	padding-left:2%;
+	padding-right:2%;
+    text-align: center;
+    font-weight: bold;
+	text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column1 {
+    float: left;
+    width: 50%;
+    padding-top:1.5%;
+	padding-left: 2%;
+}
+.column2 {
+    float:right;
+    width: 50%;
+    padding-top:1%;
+	padding-right:2%;
+	text-align: center;
+	font-size: 48px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.inner1{
+	width: 90%;
+	padding: 30px;
+	position: relative;
+	background-color: rgba(255, 255, 255, .5);
+	border-radius: 25px;
+	color: #444444; 
+	font-size: 18px; 
+	line-height: 16px !important; 
+	
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+.username{
+	padding-top:0.4%;
+	float:right;
+}
+.titletext{
+	float:left;
+	padding-left:11%;
+	font-size: 35px;
+	font-family: "Courier New", Courier, monospace;
+}
+.notif {
+    color:red;
+	font-size: 15px;
+}
+.notiflast {
+	font-size: 25px;
+	padding-left:18%;
+}
+
+a{
+	
+	
+}
+input[type=text], select {
+	font-size: 20px;
+    width: 100%;
+	height:6%;
+    padding: 6px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	font-size: 20px;
+}
+body select { 
+display: block; 
+padding: 5px 15px 5px 10px !important; 
+max-width: 100%; 
+height:7%; 
+border: 1px solid #e3e3e3; 
+border-radius: 3px; 
+background: url("selectbox_arrow.png") right center no-repeat; 
+background-color: #fff; 
+color: #444444; 
+font-size: 15px; 
+line-height: 20px !important; 
+appearance: none;
+-webkit-appearance: none;
+-moz-appearance: none;
+cursor: pointer;
+font-weight: bold;
+ }
+ body select option { 
+ padding: 0 4px;
+ }
+ select::-ms-expand { 
+ display: none;
+ } 
+ select:disabled::-ms-expand {
+background: #f60; 
+}
